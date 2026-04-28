@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c3cfab;
+}
+.container-box {
+    background: white;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+}

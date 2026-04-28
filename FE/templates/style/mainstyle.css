@@ -1,0 +1,49 @@
+/* 드라이버 텍스트 영역 */
+.drive-container {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px; /* 버튼과 간격 */
+}
+.refresh-text {
+    color: #3c4043;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.btn-new {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    /* 핵심: 고정 크기 대신 여백(padding) 사용 */
+    padding: 15px 24px;
+
+    background-color: #ffffff;
+    color: #3c4043;
+    font-size: 14px;
+    font-weight: 500;
+
+    border: none;
+    border-radius: 12px;
+
+    /* 구글 특유의 부드러운 그림자 */
+    box-shadow: 0 1px 3px rgba(60, 64, 67, 0.3),
+    0 4px 8px 3px rgba(60, 64, 67, 0.15);
+
+    cursor: pointer;
+    transition: background 0.2s, box-shadow 0.2s;
+}
+
+.btn-new:hover {
+    background-color: #f1f3f4;
+    box-shadow: 0 1px 3px rgba(60, 64, 67, 0.3),
+    0 4px 12px 6px rgba(60, 64, 67, 0.15);
+}
+
+.btn-new span {
+    font-size: 23px;
+    font-weight: 300;
+}
