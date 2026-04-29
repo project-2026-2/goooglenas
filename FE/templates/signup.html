@@ -1,11 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>회원가입</title>
+    <link rel="stylesheet" href="style/main2style.css">
 </head>
 <body>
-    <h1>hello</h1>
 
+<div class="container">
+    <div class="card">
+        <h1>회원가입</h1>
+
+        <input type="text" id="id" placeholder="아이디"><br>
+        <input type="password" id="pw1" placeholder="비밀번호"><br>
+        <input type="password" id="pw2" placeholder="비밀번호 확인"><br>
+
+        <div id="msg" class="msg"></div>
+
+        <button type="button" id="joinBtn">회원가입 확인</button>
+
+        <a href="login.html" class="link">이미 계정이 있으신가요? <span>로그인</span></a>
+    </div>
+</div>
+
+<script src="style/script2.js"></script>
 </body>
 </html>

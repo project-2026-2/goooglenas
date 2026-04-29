@@ -12,5 +12,36 @@ body {
     border-radius: 30px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     width: 300px;
+    text-align: left;
+}
+.top-area{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
+}
+.container-box input[type="text"],
+.container-box input[type="password"] {
+    width: 80%;
+    height: 28px;
+    margin-bottom: 10px;
+}
+.center {
+    text-align: center;
+}
+.first {
+    color: blue;
+    border: 2px solid blue;
+    background: transparent;
+    padding: 8px 18px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 13px;
+}
+.first:hover {
+    box-shadow: 0 0 40px 40px blue inset;
+    color: white;
 }
