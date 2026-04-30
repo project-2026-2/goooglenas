@@ -23,7 +23,9 @@ joinBtn.addEventListener('click', function () {
         showError('비밀번호가 맞지 않습니다.');
         return;
     }
-
+    // 기존 showSuccess 위에 추가
+    localStorage.setItem('userId', id);
+    localStorage.setItem('userPw', pw1);
     showSuccess('회원가입이 완료되었습니다!');
     setTimeout(function() {
         window.location.href = 'login.html';
